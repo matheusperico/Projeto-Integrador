@@ -1,0 +1,86 @@
+MPX;Microsoft Project for Windows;4.0;ANSI
+10;;1;2;.;,
+11;2;0;1;8,00;40,00;10,00/h;15,00/h;1;0
+12;1;1;480;/;:;;;20;20
+20;Standard;0;1;1;1;1;1;0
+25;1
+25;2;08:00;12:00;13:00;17:00
+25;3;08:00;12:00;13:00;17:00
+25;4;08:00;12:00;13:00;17:00
+25;5;08:00;12:00;13:00;17:00
+25;6;08:00;12:00;13:00;17:00
+25;7
+20;Standard 1;1;1;1;1;1;1;1
+25;1;08:00;12:00;13:00;17:00
+25;2;08:00;12:00;13:00;17:00
+25;3;08:00;12:00;13:00;17:00
+25;4;08:00;12:00;13:00;17:00
+25;5;08:00;12:00;13:00;17:00
+25;6;08:00;12:00;13:00;17:00
+25;7;08:00;12:00;13:00;17:00
+30;Project1;;;Standard;15/11/2024;08/12/2024;0;17/11/2024;;0,00;0,00;0,00;0h;0h;0h;0%;0d;0d;0d;0%;;;;;0d;0d
+40;Nome;Endereço Email;ID;ID Unico
+41;1;11;40;49
+50;Matheus Perico;matheuspericosmo@gmail.com;1;1
+60;Nome;WBS;Nível Externo;Duração;Duração Real;Duração Restante;% Completo;Inicio;Fim;Predecessores;Fixado;ID;Tipo de Limitação;Prioridade;ID Unico;Número Externo;Sumário
+61;1;2;3;40;42;43;44;50;51;70;80;90;91;95;98;99;120
+70;;0;0;24d;;;;15/11/2024;08/12/2024;;Não;0;O Mais Breve Possível;;0;0
+70;Planejamento do Projeto;1;1;3d;3d;0d;100%;15/11/2024;17/11/2024;;Não;1;O Mais Breve Possível;Média;7;1;Sim
+75;1;1;3d;;3d;;;;;15/11/2024;17/11/2024;;1
+76;;0;0;NA;NA
+70;Definição do Escopo;1.1;2;1d;1d;0d;100%;15/11/2024;15/11/2024;;Não;2;O Mais Breve Possível;Média;23;1.1
+75;1;1;1d;;1d;;;;;15/11/2024;15/11/2024;;1
+76;;0;0;NA;NA
+70;Análise de Requisitos;1.2;2;1d;1d;0d;100%;16/11/2024;16/11/2024;2;Não;3;O Mais Breve Possível;Média;1;1.2
+75;1;1;1d;;1d;;;;;16/11/2024;16/11/2024;;1
+76;;0;0;NA;NA
+70;Definições Técnologicas;1.3;2;1d;1d;0d;100%;16/11/2024;16/11/2024;3II;Não;4;O Mais Breve Possível;Média;6;1.3
+75;1;1;1d;;1d;;;;;16/11/2024;16/11/2024;;1
+76;;0;0;NA;NA
+70;Diagrama UML;1.4;2;2d;2d;0d;100%;16/11/2024;17/11/2024;3II;Não;5;O Mais Breve Possível;Média;2;1.4
+75;1;1;2d;;2d;;;;;16/11/2024;17/11/2024;;1
+76;;0;0;NA;NA
+70;Diagrama MER;1.5;2;2d;2d;0d;100%;16/11/2024;17/11/2024;3II;Não;6;O Mais Breve Possível;Média;3;1.5
+75;1;1;2d;;2d;;;;;16/11/2024;17/11/2024;;1
+76;;0;0;NA;NA
+70;Funcionalidades Básicas;2;1;7d;0d;7d;0%;18/11/2024;24/11/2024;1;Não;7;O Mais Breve Possível;Média;8;2;Sim
+75;1;1;7d;;0d;;;;;18/11/2024;24/11/2024;;1
+76;;0;0;NA;NA
+70;Versão Inicial do BD;2.1;2;1d;0d;1d;0%;18/11/2024;18/11/2024;;Não;8;O Mais Breve Possível;Média;9;2.1
+75;1;1;1d;;0d;;;;;18/11/2024;18/11/2024;;1
+76;;0;0;NA;NA
+70;Versão Inicial das Telas;2.2;2;3d;0d;3d;0%;19/11/2024;21/11/2024;8;Não;9;O Mais Breve Possível;Média;10;2.2
+75;1;1;3d;;0d;;;;;19/11/2024;21/11/2024;;1
+76;;0;0;NA;NA
+70;Elaboração do Back-End;2.3;2;3d;0d;3d;0%;22/11/2024;24/11/2024;9;Não;10;O Mais Breve Possível;Média;11;2.3
+75;1;1;3d;;0d;;;;;22/11/2024;24/11/2024;;1
+76;;0;0;NA;NA
+70;Funcionalidades Complementares;3;1;3d;0d;3d;0%;25/11/2024;27/11/2024;7;Não;11;O Mais Breve Possível;Média;12;3;Sim
+75;1;1;3d;;0d;;;;;25/11/2024;27/11/2024;;1
+76;;0;0;NA;NA
+70;Revisão dos Itens Planejados;3.1;2;1d;0d;1d;0%;25/11/2024;25/11/2024;;Não;12;O Mais Breve Possível;Média;13;3.1
+75;1;1;1d;;0d;;;;;25/11/2024;25/11/2024;;1
+76;;0;0;NA;NA
+70;Identificação dos Itens Faltantes;3.2;2;1d;0d;1d;0%;25/11/2024;25/11/2024;12II;Não;13;O Mais Breve Possível;Média;14;3.2
+75;1;1;1d;;0d;;;;;25/11/2024;25/11/2024;;1
+76;;0;0;NA;NA
+70;Implementação dos Itens Faltantes;3.3;2;2d;0d;2d;0%;26/11/2024;27/11/2024;13;Não;14;O Mais Breve Possível;Média;15;3.3
+75;1;1;2d;;0d;;;;;26/11/2024;27/11/2024;;1
+76;;0;0;NA;NA
+70;Conclusão do Projeto;4;1;4d;0d;4d;0%;28/11/2024;01/12/2024;;Não;15;O Mais Breve Possível;Média;16;4;Sim
+75;1;1;4d;;0d;;;;;28/11/2024;01/12/2024;;1
+76;;0;0;NA;NA
+70;Revisão Final;4.1;2;1d;0d;1d;0%;28/11/2024;28/11/2024;;Não;16;O Mais Breve Possível;Média;17;4.1
+75;1;1;1d;;0d;;;;;28/11/2024;28/11/2024;;1
+76;;0;0;NA;NA
+70;Testes;4.2;2;1d;0d;1d;0%;29/11/2024;29/11/2024;16;Não;17;O Mais Breve Possível;Média;18;4.2
+75;1;1;1d;;0d;;;;;29/11/2024;29/11/2024;;1
+76;;0;0;NA;NA
+70;Preparação para Entrega;4.3;2;2d;0d;2d;0%;30/11/2024;01/12/2024;17;Não;18;O Mais Breve Possível;Média;19;4.3
+70;Aplicação Funcional;5;1;3d;0d;3d;0%;02/12/2024;04/12/2024;;Não;19;O Mais Breve Possível;Alta;20;5
+75;1;1;3d;;0d;;;;;02/12/2024;04/12/2024;;1
+76;;0;0;NA;NA
+70;Sinalização dos Itens Não Funcionais;6;1;3d;0d;3d;0%;02/12/2024;04/12/2024;19II;Não;20;O Mais Breve Possível;Média;21;6
+70;Compilação do Material do Projeto;7;1;4d;0d;4d;0%;05/12/2024;08/12/2024;19;Não;21;O Mais Breve Possível;Média;22;7
+75;1;1;4d;;0d;;;;;05/12/2024;08/12/2024;;1
+76;;0;0;NA;NA
