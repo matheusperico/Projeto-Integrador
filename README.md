@@ -1,3 +1,5 @@
+ESCOPO DO PROJETO
+
 Este projeto tem como objetivo desenvolver um sistema de controle de estoque e gestão de industrialização de matéria-prima para uma pequena produção de vinhos, visando atender uma necessidade próxima a mim. Atualmente, o gerenciamento é realizado manualmente, o que pode causar imprecisões e dificultar o acompanhamento das operações.
 
 A plataforma escolhida para o desenvolvimento é Desktop, utilizando a linguagem C# e o banco de dados SQLite. A linguagem C#, pois nunca fiz um projeto nela e não tenho familiaridade, usando o projeto como aprendizado, enquanto o SQLite foi selecionado pela simplicidade e eficiência em atender aos requisitos do projeto.
