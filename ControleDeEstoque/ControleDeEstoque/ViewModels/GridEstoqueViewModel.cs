@@ -18,9 +18,9 @@ namespace ControleDeEstoque.ViewModels
         {
             Produtos = new ObservableCollection<Produto>
             {
-                new Produto { Nome = "Produto 1", Preco = 10.00 },
-                new Produto { Nome = "Produto 2", Preco = 20.00 },
-                new Produto { Nome = "Produto 3", Preco = 30.00 }
+                new Produto { nome = "Produto 1", fatorConversao = 10 },
+                new Produto { nome = "Produto 2", fatorConversao = 20 },
+                new Produto { nome = "Produto 3", fatorConversao = 30 }
             };
         }
         public event PropertyChangedEventHandler PropertyChanged;

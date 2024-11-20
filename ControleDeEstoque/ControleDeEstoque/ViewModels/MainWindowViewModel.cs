@@ -11,6 +11,7 @@ namespace ControleDeEstoque.ViewModels
         private string _btnSaidaTxt = "Saída";
         private string _btnIndustrializaTxt = "Industrialização";
         private string _btnInicioTxt = "Inicio";
+        private string _btnCadastroTxt = "Novo Produto";
 
         private UserControl _currentView;
         public string btnEntradaTxt
@@ -53,6 +54,16 @@ namespace ControleDeEstoque.ViewModels
             }
         }
 
+        public string btnCadastroTxt
+        {
+            get => _btnCadastroTxt;
+            set
+            {
+                _btnCadastroTxt = value;
+                OnPropertyChanged(nameof(_btnCadastroTxt));
+            }
+        }
+
         public UserControl CurrentView
         {
             get => _currentView;
@@ -67,6 +78,7 @@ namespace ControleDeEstoque.ViewModels
         public ICommand ViewEntradas { get; }
         public ICommand ViewSaidas { get; }
         public ICommand ViewIndustrializacao { get; }
+        public ICommand ViewCadastro { get; }
 
         public MainWindowViewModel()
         {
@@ -74,6 +86,7 @@ namespace ControleDeEstoque.ViewModels
             ViewEntradas = new RelayCommand(() => SetView(new GridEstoque()));  // View para Entradas
             ViewSaidas = new RelayCommand(() => SetView(new GridEstoque()));  // View para Saídas
             ViewIndustrializacao = new RelayCommand(() => SetView(new GridEstoque())); // View para Industrialização
+            ViewCadastro = new RelayCommand(() => SetView(new CadastroProduto())); // View para Cadastro
 
             CurrentView = new GridEstoque();
         }

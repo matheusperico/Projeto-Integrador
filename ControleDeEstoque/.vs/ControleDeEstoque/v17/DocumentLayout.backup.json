@@ -7,20 +7,32 @@
       "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\views\\gridestoque.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\views\\gridestoque.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\viewmodels\\gridestoqueviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\viewmodels\\gridestoqueviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\views\\cadastroproduto.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\views\\cadastroproduto.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\views\\cadastroproduto.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\views\\cadastroproduto.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\viewmodels\\cadastroprodutoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\viewmodels\\cadastroprodutoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\models\\tipoproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\models\\tipoproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\views\\gridestoque.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\views\\gridestoque.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,20 +58,97 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
+              "Title": "GridEstoque.axaml.cs",
+              "DocumentMoniker": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Views\\GridEstoque.axaml.cs",
+              "RelativeDocumentMoniker": "ControleDeEstoque\\Views\\GridEstoque.axaml.cs",
+              "ToolTip": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Views\\GridEstoque.axaml.cs",
+              "RelativeToolTip": "ControleDeEstoque\\Views\\GridEstoque.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T19:56:21.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "MainWindow.axaml.cs",
               "DocumentMoniker": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Views\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "ControleDeEstoque\\Views\\MainWindow.axaml.cs",
               "ToolTip": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Views\\MainWindow.axaml.cs",
               "RelativeToolTip": "ControleDeEstoque\\Views\\MainWindow.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T17:32:29.302Z",
+              "WhenOpened": "2024-11-20T19:36:30.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "tipoProduto.cs",
+              "DocumentMoniker": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Models\\tipoProduto.cs",
+              "RelativeDocumentMoniker": "ControleDeEstoque\\Models\\tipoProduto.cs",
+              "ToolTip": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Models\\tipoProduto.cs",
+              "RelativeToolTip": "ControleDeEstoque\\Models\\tipoProduto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T19:02:49.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "ControleDeEstoque\\Models\\Produto.cs",
+              "ToolTip": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Models\\Produto.cs",
+              "RelativeToolTip": "ControleDeEstoque\\Models\\Produto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T18:59:58.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CadastroProdutoViewModel.cs",
+              "DocumentMoniker": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\ViewModels\\CadastroProdutoViewModel.cs",
+              "RelativeDocumentMoniker": "ControleDeEstoque\\ViewModels\\CadastroProdutoViewModel.cs",
+              "ToolTip": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\ViewModels\\CadastroProdutoViewModel.cs",
+              "RelativeToolTip": "ControleDeEstoque\\ViewModels\\CadastroProdutoViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T18:58:16.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CadastroProduto.axaml",
+              "DocumentMoniker": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Views\\CadastroProduto.axaml",
+              "RelativeDocumentMoniker": "ControleDeEstoque\\Views\\CadastroProduto.axaml",
+              "ToolTip": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Views\\CadastroProduto.axaml",
+              "RelativeToolTip": "ControleDeEstoque\\Views\\CadastroProduto.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-20T18:57:10.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "CadastroProduto.axaml.cs",
+              "DocumentMoniker": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Views\\CadastroProduto.axaml.cs",
+              "RelativeDocumentMoniker": "ControleDeEstoque\\Views\\CadastroProduto.axaml.cs",
+              "ToolTip": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Views\\CadastroProduto.axaml.cs",
+              "RelativeToolTip": "ControleDeEstoque\\Views\\CadastroProduto.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T18:57:10.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ViewModelBase.cs",
               "DocumentMoniker": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\ViewModels\\ViewModelBase.cs",
               "RelativeDocumentMoniker": "ControleDeEstoque\\ViewModels\\ViewModelBase.cs",
@@ -72,57 +157,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T16:57:09.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GridEstoqueViewModel.cs",
-              "DocumentMoniker": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\ViewModels\\GridEstoqueViewModel.cs",
-              "RelativeDocumentMoniker": "ControleDeEstoque\\ViewModels\\GridEstoqueViewModel.cs",
-              "ToolTip": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\ViewModels\\GridEstoqueViewModel.cs",
-              "RelativeToolTip": "ControleDeEstoque\\ViewModels\\GridEstoqueViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T16:55:37.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Models\\Produto.cs",
-              "RelativeDocumentMoniker": "ControleDeEstoque\\Models\\Produto.cs",
-              "ToolTip": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Models\\Produto.cs",
-              "RelativeToolTip": "ControleDeEstoque\\Models\\Produto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T16:54:01.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GridEstoque.axaml",
-              "DocumentMoniker": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Views\\GridEstoque.axaml",
-              "RelativeDocumentMoniker": "ControleDeEstoque\\Views\\GridEstoque.axaml",
-              "ToolTip": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Views\\GridEstoque.axaml",
-              "RelativeToolTip": "ControleDeEstoque\\Views\\GridEstoque.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-20T15:46:18.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GridEstoque.axaml.cs",
-              "DocumentMoniker": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Views\\GridEstoque.axaml.cs",
-              "RelativeDocumentMoniker": "ControleDeEstoque\\Views\\GridEstoque.axaml.cs",
-              "ToolTip": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Views\\GridEstoque.axaml.cs",
-              "RelativeToolTip": "ControleDeEstoque\\Views\\GridEstoque.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T15:46:18.809Z",
               "EditorCaption": ""
             },
             {
@@ -139,13 +173,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "MainWindowViewModel.cs",
               "DocumentMoniker": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\ViewModels\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "ControleDeEstoque\\ViewModels\\MainWindowViewModel.cs",
               "ToolTip": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\ViewModels\\MainWindowViewModel.cs",
               "RelativeToolTip": "ControleDeEstoque\\ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowFAAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAmwFUAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T13:23:03.108Z",
               "EditorCaption": ""

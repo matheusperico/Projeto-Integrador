@@ -1,0 +1,53 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="ControleDeEstoque.CadastroProduto"
+			 xmlns:vm="using:ControleDeEstoque.ViewModels"
+			 x:DataType="vm:CadastroProdutoViewModel">
+	<UserControl.DataContext>
+		<vm:CadastroProdutoViewModel/>
+	</UserControl.DataContext>
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="60"/>
+			<RowDefinition/>
+		</Grid.RowDefinitions>
+		<Grid Grid.Row="0">
+			<TextBlock Text="Cadastrar novo produto" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+		</Grid>
+		<Grid Grid.Row="1" Margin="20">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="20*"/>
+				<ColumnDefinition Width="80*"/>
+			</Grid.ColumnDefinitions>
+			<Grid Grid.Column="0">
+				<StackPanel Orientation="Vertical" Spacing="30">
+					<Label Content="Nome*" HorizontalAlignment="Right"/>
+					<Label Content="Unidade*" HorizontalAlignment="Right"/>
+					<Label Content="Tipo do Produto*" HorizontalAlignment="Right"/>
+					<Label Content="Fator de Conversão" HorizontalAlignment="Right"/>
+				</StackPanel>
+			</Grid>
+			<Grid Grid.Column="1">
+				<StackPanel Orientation="Vertical" Spacing="20" VerticalAlignment="Top">
+					<TextBox TextAlignment="Justify" Width="400" HorizontalAlignment="Left"/>
+					<TextBox TextAlignment="Justify" Width="20" HorizontalAlignment="Left"/>
+					<ComboBox Width="200" ItemsSource="{Binding TipoProdutos}">
+						<ComboBox.ItemTemplate>
+							<DataTemplate>
+								<TextBlock Text="{Binding Converter={StaticResource EnumToStringConverter}}"/>
+							</DataTemplate>
+						</ComboBox.ItemTemplate>
+					</ComboBox>
+					<TextBox TextAlignment="Justify" Width="20" HorizontalAlignment="Left"/>
+					<StackPanel Orientation="Horizontal" Spacing="100">
+						<Button Content="Salvar"></Button>
+						<Button Content="Cancelar"></Button>
+					</StackPanel>					
+				</StackPanel>				
+			</Grid>
+		</Grid>
+	</Grid>
+</UserControl>

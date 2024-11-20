@@ -11,7 +11,9 @@
         Title="Controle De Estoque"
 		Height="600"
 		Width="800"
-		WindowStartupLocation="CenterScreen">
+		WindowStartupLocation="CenterScreen"
+		WindowState="Normal"
+		CanResize="False">
 	<Grid>
 		<Grid.RowDefinitions>
 			<RowDefinition Height="60"/>
@@ -22,6 +24,8 @@
 			<StackPanel Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0" Spacing="10" Orientation="Horizontal">
 				<Button Name="btnInicio"  Width="125" HorizontalAlignment="Left" HorizontalContentAlignment="Center" 
 						Content="{Binding btnInicioTxt}" Command="{Binding ViewInicio}"/>
+				<Button Name="btnCadastro"  Width="125" HorizontalAlignment="Left" HorizontalContentAlignment="Center"
+						Content="{Binding btnCadastroTxt}" Command="{Binding ViewCadastro}"/>
 				<Button Name="btnEntradas"  Width="125" HorizontalAlignment="Left" HorizontalContentAlignment="Center" 
 						Content="{Binding btnEntradaTxt}" Command="{Binding ViewEntradas}"/>
 				<Button Name="btnSaidas" Width="125" HorizontalAlignment="Center" HorizontalContentAlignment="Center"
