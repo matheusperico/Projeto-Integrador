@@ -1,0 +1,43 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="ControleDeEstoque.Entrada"
+			 xmlns:vm="using:ControleDeEstoque.ViewModels"
+			 x:DataType="vm:EntradaViewModel">
+	
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="60"/>
+			<RowDefinition/>
+		</Grid.RowDefinitions>
+		<Grid Grid.Row="0">
+			<TextBlock Text="Entrada no Estoque" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+		</Grid>
+		<Grid Grid.Row="1" Margin="20">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="20*"/>
+				<ColumnDefinition Width="80*"/>
+			</Grid.ColumnDefinitions>
+			<Grid Grid.Column="0">
+				<StackPanel Orientation="Vertical" Spacing="30">
+					<Label Content="Produto:" HorizontalAlignment="Right"/>
+					<Label Content="Quantidade" HorizontalAlignment="Right"/>
+					<Label Content="Valor" HorizontalAlignment="Right"/>
+				</StackPanel>
+			</Grid>
+			<Grid Grid.Column="1">
+				<StackPanel Orientation="Vertical" Spacing="20" VerticalAlignment="Top">
+					<ComboBox ItemsSource="{Binding ListaProdutos}" SelectedItem="{Binding ProdutoSelecionado}" Width="200"/>
+					<TextBox Width="70" HorizontalAlignment="Left"/>
+					<TextBox Width="70" HorizontalAlignment="Left"/>				
+					<StackPanel Orientation="Horizontal" Spacing="100">
+						<Button Content="Salvar"></Button>
+						<Button Content="Cancelar"></Button>
+					</StackPanel>
+				</StackPanel>
+			</Grid>
+		</Grid>
+	</Grid>
+</UserControl>

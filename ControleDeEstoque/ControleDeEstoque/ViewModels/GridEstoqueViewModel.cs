@@ -18,16 +18,10 @@ namespace ControleDeEstoque.ViewModels
         {
             Produtos = new ObservableCollection<Produto>
             {
-                new Produto { nome = "Produto 1", fatorConversao = 10 },
-                new Produto { nome = "Produto 2", fatorConversao = 20 },
-                new Produto { nome = "Produto 3", fatorConversao = 30 }
+                new(1, "Teste"),
+                new(2, "Teste2"),
+                new(3, "Teste3")
             };
-        }
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        protected virtual void OnPropertyChanged(string propertyName)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

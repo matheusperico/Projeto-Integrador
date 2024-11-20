@@ -6,6 +6,7 @@ build_property.AvaloniaNameGeneratorFilterByPath = *
 build_property.AvaloniaNameGeneratorFilterByNamespace = *
 build_property.AvaloniaNameGeneratorViewFileNamingStrategy = NamespaceAndClassName
 build_property.AvaloniaNameGeneratorAttachDevTools = true
+build_property.MvvmToolkitEnableINotifyPropertyChangingSupport = true
 build_property.TargetFramework = net9.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
@@ -25,6 +26,9 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Projeto Integrador/ControleDeEstoque/ControleDeEstoque/Views/CadastroProduto.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Projeto Integrador/ControleDeEstoque/ControleDeEstoque/Views/Entrada.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Projeto Integrador/ControleDeEstoque/ControleDeEstoque/Views/GridEstoque.axaml]

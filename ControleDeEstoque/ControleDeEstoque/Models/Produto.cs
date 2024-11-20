@@ -35,6 +35,18 @@ namespace ControleDeEstoque.Models
             get => _tipo;
             set => _tipo = value;
         }
+        public Produto(int id1, string nome1)
+        {
+            this.id = id1;
+            this.nome = nome1;
+        }
+
+        public Produto(int id, string nome, string unidade, float fatorConversao, tipoProduto tipo) : this(id, nome)
+        {
+            this.unidade = unidade;
+            this.fatorConversao = fatorConversao;
+            this.tipo = tipo;
+        }
 
         public void novoCadastro()
         {
@@ -43,6 +55,11 @@ namespace ControleDeEstoque.Models
         public void inativarProduto()
         {
             //
+        }
+
+        public override string ToString()
+        {
+            return $"{id} - {nome}";
         }
     }
     }
