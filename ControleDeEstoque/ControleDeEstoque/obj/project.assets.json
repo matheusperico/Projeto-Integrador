@@ -1466,6 +1466,7 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "Avalonia >= 11.2.1",
+      "Avalonia.Controls.DataGrid >= 11.2.1",
       "Avalonia.Desktop >= 11.2.1",
       "Avalonia.Diagnostics >= 11.2.1",
       "Avalonia.Fonts.Inter >= 11.2.1",
@@ -1525,6 +1526,10 @@
         "targetAlias": "net9.0",
         "dependencies": {
           "Avalonia": {
+            "target": "Package",
+            "version": "[11.2.1, )"
+          },
+          "Avalonia.Controls.DataGrid": {
             "target": "Package",
             "version": "[11.2.1, )"
           },

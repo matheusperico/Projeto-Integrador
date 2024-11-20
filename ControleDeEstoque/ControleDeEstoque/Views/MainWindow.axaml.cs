@@ -1,4 +1,5 @@
 using Avalonia.Controls;
+using ControleDeEstoque.ViewModels;
 
 namespace ControleDeEstoque.Views
 {
@@ -7,6 +8,7 @@ namespace ControleDeEstoque.Views
         public MainWindow()
         {
             InitializeComponent();
+            this.DataContext = new MainWindowViewModel();
         }
     }
 }

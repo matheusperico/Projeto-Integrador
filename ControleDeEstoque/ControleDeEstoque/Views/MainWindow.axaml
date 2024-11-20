@@ -3,21 +3,16 @@
         xmlns:vm="using:ControleDeEstoque.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:local="using:ControleDeEstoque"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="ControleDeEstoque.Views.MainWindow"
-        x:DataType="vm:MainWindowViewModel"
+		x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
         Title="Controle De Estoque"
 		Height="600"
-		Width="800">
-
-	<Design.DataContext>
-		<!-- This only sets the DataContext for the previewer in an IDE,
-             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
-		<vm:MainWindowViewModel/>
-	</Design.DataContext>
-
-	<Grid ShowGridLines="True">
+		Width="800"
+		WindowStartupLocation="CenterScreen">
+	<Grid>
 		<Grid.RowDefinitions>
 			<RowDefinition Height="60"/>
 			<RowDefinition/>
@@ -25,14 +20,18 @@
 	
 		<Grid Grid.Row="0" Background="Lavender">
 			<StackPanel Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0" Spacing="10" Orientation="Horizontal">
-				<Button Name="btnInicio"  Width="125" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Content="{Binding btnInicioTxt}"></Button>
-				<Button Name="btnEntradas"  Width="125" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Content="{Binding btnEntradaTxt}"></Button>
-				<Button Name="btnSaidas" Width="125" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Content="{Binding btnSaidaTxt}"></Button>
-				<Button Name="btnIndustrializa" Width="125" HorizontalAlignment="Right" HorizontalContentAlignment="Center" Content="{Binding btnIndustrializaTxt}"></Button>
+				<Button Name="btnInicio"  Width="125" HorizontalAlignment="Left" HorizontalContentAlignment="Center" 
+						Content="{Binding btnInicioTxt}" Command="{Binding ViewInicio}"/>
+				<Button Name="btnEntradas"  Width="125" HorizontalAlignment="Left" HorizontalContentAlignment="Center" 
+						Content="{Binding btnEntradaTxt}" Command="{Binding ViewEntradas}"/>
+				<Button Name="btnSaidas" Width="125" HorizontalAlignment="Center" HorizontalContentAlignment="Center"
+						Content="{Binding btnSaidaTxt}" Command="{Binding ViewSaidas}"/>
+				<Button Name="btnIndustrializa" Width="125" HorizontalAlignment="Right" HorizontalContentAlignment="Center" 
+						Content="{Binding btnIndustrializaTxt}" Command="{Binding ViewIndustrializacao}"/>
 			</StackPanel>
 		</Grid>
-		<Grid Grid.Row="1">	
-			
+		<Grid Grid.Row="1">
+			<ContentControl Content="{Binding CurrentView}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
 		</Grid>
 	</Grid>
 

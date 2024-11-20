@@ -1,16 +1,18 @@
-﻿using ControleDeEstoque.Views;
+﻿using Avalonia.Controls;
+using CommunityToolkit.Mvvm.Input;
 using System.ComponentModel;
-using Avalonia.Controls;
+using System.Windows.Input;
 
 namespace ControleDeEstoque.ViewModels
 {
-    public partial class MainWindowViewModel : ViewModelBase, INotifyPropertyChanged
+    public partial class MainWindowViewModel: ViewModelBase, INotifyPropertyChanged
     {
-        private string _btnEntradaTxt;
-        private string _btnSaidaTxt;
-        private string _btnIndustrializaTxt;
-        private string _btnInicioTxt;
+        private string _btnEntradaTxt = "Entrada";
+        private string _btnSaidaTxt = "Saída";
+        private string _btnIndustrializaTxt = "Industrialização";
+        private string _btnInicioTxt = "Inicio";
 
+        private UserControl _currentView;
         public string btnEntradaTxt
         {
             get => _btnEntradaTxt;
@@ -18,7 +20,7 @@ namespace ControleDeEstoque.ViewModels
             {
                 _btnEntradaTxt = value;
                 OnPropertyChanged(nameof(btnEntradaTxt));
-            }                
+            }
         }
 
         public string btnSaidaTxt
@@ -51,12 +53,34 @@ namespace ControleDeEstoque.ViewModels
             }
         }
 
+        public UserControl CurrentView
+        {
+            get => _currentView;
+            set
+            {
+                _currentView = value;
+                OnPropertyChanged(nameof(CurrentView));
+            }
+        }
+
+        public ICommand ViewInicio { get; }
+        public ICommand ViewEntradas { get; }
+        public ICommand ViewSaidas { get; }
+        public ICommand ViewIndustrializacao { get; }
+
         public MainWindowViewModel()
         {
-            btnEntradaTxt = "Entrada";
-            btnSaidaTxt = "Saída";
-            btnIndustrializaTxt = "Industrialização";
-            btnInicioTxt = "Inicio";
+            ViewInicio = new RelayCommand(() => SetView(new GridEstoque()));  // View para Início
+            ViewEntradas = new RelayCommand(() => SetView(new GridEstoque()));  // View para Entradas
+            ViewSaidas = new RelayCommand(() => SetView(new GridEstoque()));  // View para Saídas
+            ViewIndustrializacao = new RelayCommand(() => SetView(new GridEstoque())); // View para Industrialização
+
+            CurrentView = new GridEstoque();
+        }
+
+        public void SetView(UserControl view)
+        {
+            CurrentView = view;
         }
     }
 

@@ -24,5 +24,8 @@ build_property.EnableCodeStyleSeverity =
 [C:/Projeto Integrador/ControleDeEstoque/ControleDeEstoque/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[C:/Projeto Integrador/ControleDeEstoque/ControleDeEstoque/Views/GridEstoque.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Projeto Integrador/ControleDeEstoque/ControleDeEstoque/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
