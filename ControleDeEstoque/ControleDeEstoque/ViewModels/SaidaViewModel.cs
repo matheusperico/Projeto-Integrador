@@ -1,28 +1,27 @@
-﻿using System.Collections.ObjectModel;
-using System.ComponentModel;
-using Microsoft.Data.Sqlite;
+﻿using Avalonia.Controls;
 using ControleDeEstoque.Models;
+using Microsoft.Data.Sqlite;
 using System;
-using Avalonia.Controls;
+using System.Collections.ObjectModel;
 
 namespace ControleDeEstoque.ViewModels
 {
-    internal class EntradaViewModel: ViewModelBase, INotifyPropertyChanged
+    internal class SaidaViewModel
     {
-		private string _produtoSelecionado;
-		private string _listaProdutos;
+        private string _produtoSelecionado;
+        private string _listaProdutos;
 
         public ObservableCollection<Produto> ListaProdutos { get; set; }
 
         public string ProdutoSelecionado
-		{
-			get { return _produtoSelecionado; }
-			set { _produtoSelecionado = value; }
-		}
+        {
+            get { return _produtoSelecionado; }
+            set { _produtoSelecionado = value; }
+        }
 
-		public EntradaViewModel()
-		{
-			ListaProdutos = new ObservableCollection<Produto>();
+        public SaidaViewModel()
+        {
+            ListaProdutos = new ObservableCollection<Produto>();
 
             if (Design.IsDesignMode)
             {
@@ -72,5 +71,5 @@ namespace ControleDeEstoque.ViewModels
                 Console.WriteLine($"Erro geral: {ex.Message}");
             }
         }
-	}
+    }
 }

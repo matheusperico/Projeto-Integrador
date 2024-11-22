@@ -7,7 +7,7 @@ namespace ControleDeEstoque.Models
         private int _id;
         private string _nome;
         private string _unidade;
-        private float _fatorConversao;
+        private double _fatorConversao;
         private tipoProduto _tipo;
 
         public int id
@@ -25,7 +25,7 @@ namespace ControleDeEstoque.Models
             get => _unidade;
             set => _unidade = value;
         }
-        public float fatorConversao
+        public double fatorConversao
         {
             get => _fatorConversao;
             set => _fatorConversao = value;
@@ -41,7 +41,7 @@ namespace ControleDeEstoque.Models
             this.nome = nome1;
         }
 
-        public Produto(int id, string nome, string unidade, float fatorConversao, tipoProduto tipo) : this(id, nome)
+        public Produto(int id, string nome, string unidade, double fatorConversao, tipoProduto tipo) : this(id, nome)
         {
             this.unidade = unidade;
             this.fatorConversao = fatorConversao;

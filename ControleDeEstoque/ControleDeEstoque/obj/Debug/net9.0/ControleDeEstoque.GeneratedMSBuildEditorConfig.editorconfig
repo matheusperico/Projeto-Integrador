@@ -34,5 +34,11 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [C:/Projeto Integrador/ControleDeEstoque/ControleDeEstoque/Views/GridEstoque.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[C:/Projeto Integrador/ControleDeEstoque/ControleDeEstoque/Views/Industrializacao.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Projeto Integrador/ControleDeEstoque/ControleDeEstoque/Views/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Projeto Integrador/ControleDeEstoque/ControleDeEstoque/Views/Saida.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

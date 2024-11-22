@@ -18,9 +18,9 @@ namespace ControleDeEstoque.ViewModels
         {
             Produtos = new ObservableCollection<Produto>
             {
-                new(1, "Teste"),
-                new(2, "Teste2"),
-                new(3, "Teste3")
+                new(1, "Teste", "Kg", 0.60, tipoProduto.MateriaPrima),
+                new(2, "Teste2","Lt", 1, tipoProduto.ProdutoAcabado),
+                new(3, "Teste3","Kg", 0.30, tipoProduto.MateriaPrima)
             };
         }
     }

@@ -1,0 +1,71 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="ControleDeEstoque.Industrializacao"
+			 xmlns:vm="using:ControleDeEstoque.ViewModels"
+			 x:DataType="vm:IndustrializacaoViewModel">
+	<Grid ShowGridLines="True">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="60"/>
+			<RowDefinition Height="50"/>
+			<RowDefinition/>
+		</Grid.RowDefinitions>
+		<Grid Grid.Row="0">
+			<TextBlock Text="Industrializar Produtos" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+		</Grid>
+		<Grid Grid.Row="1">
+			<StackPanel VerticalAlignment="Top" Orientation="Horizontal" HorizontalAlignment="Left" Margin="10" Spacing="10">
+				<ComboBox x:Name="cbAdd" VerticalAlignment="Top" ItemsSource="{Binding ProdutosDisponiveis}" SelectedItem="{Binding ProdutoSelecionado}" Width="300" />
+				<Button VerticalAlignment="Top" Content="Adicionar" Command="{Binding AdicionarProdutoCommand}"/>
+			</StackPanel>
+		</Grid>
+			<Grid Grid.Row="2" ShowGridLines="True">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="310"/>
+					<ColumnDefinition/>
+				</Grid.ColumnDefinitions>
+				<Grid Grid.Column="0">
+					<StackPanel>
+					<ListBox ItemsSource="{Binding ProdutosSelecionados}">
+						<ListBox.ItemTemplate>
+							<DataTemplate>
+								<StackPanel Orientation="Horizontal" Spacing="10">
+									<TextBlock Text="{Binding nome}" VerticalAlignment="Center"/>
+									<Button Content="Remover"
+										Command="{Binding $parent[ListBox].((vm:IndustrializacaoViewModel)DataContext).RemoverProdutoCommand}"
+										CommandParameter="{Binding}"/>
+								</StackPanel>
+							</DataTemplate>
+						</ListBox.ItemTemplate>
+					</ListBox>
+					</StackPanel>
+				</Grid>
+				<Grid Grid.Column="1" ShowGridLines="True">
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="100"/>
+						<ColumnDefinition/>
+					</Grid.ColumnDefinitions>
+					<Grid Grid.Column="0">
+						<StackPanel Spacing="25" Margin="9">
+							<Label HorizontalAlignment="Right" Content="Produto >"></Label>
+							<Label HorizontalAlignment="Right" Content="Quantidade"></Label>
+							<Label HorizontalAlignment="Right" Content="Markup %"></Label>
+						</StackPanel>
+					</Grid>
+					<Grid Grid.Column="1">
+						<StackPanel VerticalAlignment="Top" Orientation="Vertical" HorizontalAlignment="Left" Margin="10" Spacing="15">
+							<ComboBox x:Name="cbProdutoAcabado" VerticalAlignment="Top" ItemsSource="{Binding ProdutosAcabados}" SelectedItem="{Binding ProdutoAcabadoSelecionado}" Width="300" />
+							<TextBox  HorizontalAlignment="Left" Width="20"></TextBox>
+							<TextBox HorizontalAlignment="Left" Width="20"></TextBox>
+							<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="100">
+								<Button Content="Salvar"></Button>
+								<Button Content="Cancelar"></Button>
+							</StackPanel>
+						</StackPanel>
+					</Grid>
+				</Grid>
+		</Grid>
+	</Grid>
+</UserControl>

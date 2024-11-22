@@ -84,8 +84,8 @@ namespace ControleDeEstoque.ViewModels
         {
             ViewInicio = new RelayCommand(() => SetView(new GridEstoque()));  // View para Início
             ViewEntradas = new RelayCommand(() => SetView(new Entrada()));  // View para Entradas
-            ViewSaidas = new RelayCommand(() => SetView(new GridEstoque()));  // View para Saídas
-            ViewIndustrializacao = new RelayCommand(() => SetView(new GridEstoque())); // View para Industrialização
+            ViewSaidas = new RelayCommand(() => SetView(new Saida()));  // View para Saídas
+            ViewIndustrializacao = new RelayCommand(() => SetView(new Industrializacao())); // View para Industrialização
             ViewCadastro = new RelayCommand(() => SetView(new CadastroProduto())); // View para Cadastro
 
             CurrentView = new GridEstoque();
