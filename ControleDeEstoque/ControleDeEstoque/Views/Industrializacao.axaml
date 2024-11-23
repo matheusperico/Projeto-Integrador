@@ -6,7 +6,7 @@
              x:Class="ControleDeEstoque.Industrializacao"
 			 xmlns:vm="using:ControleDeEstoque.ViewModels"
 			 x:DataType="vm:IndustrializacaoViewModel">
-	<Grid ShowGridLines="True">
+	<Grid>
 		<Grid.RowDefinitions>
 			<RowDefinition Height="60"/>
 			<RowDefinition Height="50"/>
@@ -21,7 +21,7 @@
 				<Button VerticalAlignment="Top" Content="Adicionar" Command="{Binding AdicionarProdutoCommand}"/>
 			</StackPanel>
 		</Grid>
-			<Grid Grid.Row="2" ShowGridLines="True">
+			<Grid Grid.Row="2">
 				<Grid.ColumnDefinitions>
 					<ColumnDefinition Width="310"/>
 					<ColumnDefinition/>
@@ -42,7 +42,7 @@
 					</ListBox>
 					</StackPanel>
 				</Grid>
-				<Grid Grid.Column="1" ShowGridLines="True">
+				<Grid Grid.Column="1">
 					<Grid.ColumnDefinitions>
 						<ColumnDefinition Width="100"/>
 						<ColumnDefinition/>

@@ -32,19 +32,19 @@
 			</Grid>
 			<Grid Grid.Column="1">
 				<StackPanel Orientation="Vertical" Spacing="20" VerticalAlignment="Top">
-					<TextBox TextAlignment="Justify" Width="400" HorizontalAlignment="Left"/>
-					<TextBox TextAlignment="Justify" Width="20" HorizontalAlignment="Left"/>
-					<ComboBox Width="200" ItemsSource="{Binding TipoProdutos}">
+					<TextBox Text="{Binding nome}" TextAlignment="Justify" Width="400" HorizontalAlignment="Left"/>
+					<TextBox Text="{Binding unidade}" TextAlignment="Justify" Width="20" HorizontalAlignment="Left"/>
+					<ComboBox Width="200" ItemsSource="{Binding TipoProdutos}" SelectedItem="{Binding tipo}">
 						<ComboBox.ItemTemplate>
 							<DataTemplate>
 								<TextBlock Text="{Binding Converter={StaticResource EnumToStringConverter}}"/>
 							</DataTemplate>
 						</ComboBox.ItemTemplate>
 					</ComboBox>
-					<TextBox TextAlignment="Justify" Width="20" HorizontalAlignment="Left"/>
-					<StackPanel Orientation="Horizontal" Spacing="100">
-						<Button Content="Salvar"></Button>
-						<Button Content="Cancelar"></Button>
+					<TextBox Text="{Binding fatorConversao}" TextAlignment="Justify" Width="20" HorizontalAlignment="Left"/>
+					<StackPanel Orientation="Horizontal" Spacing="260">
+						<Button Content="Cancelar" Command="{Binding Cancelar}"></Button>
+						<Button Content="Salvar" Command="{Binding Salvar}"></Button>						
 					</StackPanel>					
 				</StackPanel>				
 			</Grid>

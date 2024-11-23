@@ -91,3 +91,5 @@ C:\Projeto Integrador\ControleDeEstoque\ControleDeEstoque\bin\Debug\net9.0\runti
 C:\Projeto Integrador\ControleDeEstoque\ControleDeEstoque\obj\Debug\net9.0\Controle.B26DD2FE.Up2Date
 C:\Projeto Integrador\ControleDeEstoque\ControleDeEstoque\obj\Debug\net9.0\ControleDeEstoque.genruntimeconfig.cache
 C:\Projeto Integrador\ControleDeEstoque\ControleDeEstoque\obj\Debug\net9.0\ref\ControleDeEstoque.dll
+C:\Projeto Integrador\ControleDeEstoque\ControleDeEstoque\bin\Debug\net9.0\DialogHost.Avalonia.dll
+C:\Projeto Integrador\ControleDeEstoque\ControleDeEstoque\bin\Debug\net9.0\MsBox.Avalonia.dll
