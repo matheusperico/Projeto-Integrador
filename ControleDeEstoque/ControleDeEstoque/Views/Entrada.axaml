@@ -30,11 +30,11 @@
 			<Grid Grid.Column="1">
 				<StackPanel Orientation="Vertical" Spacing="20" VerticalAlignment="Top">
 					<ComboBox ItemsSource="{Binding ListaProdutos}" SelectedItem="{Binding ProdutoSelecionado}" Width="200"/>
-					<TextBox Width="70" HorizontalAlignment="Left"/>
-					<TextBox Width="70" HorizontalAlignment="Left"/>				
+					<TextBox Text="{Binding quantidade}" Width="70" HorizontalAlignment="Left"/>
+					<TextBox Text="{Binding valor}" Width="70" HorizontalAlignment="Left"/>				
 					<StackPanel Orientation="Horizontal" Spacing="100">
-						<Button Content="Salvar"></Button>
-						<Button Content="Cancelar"></Button>
+						<Button Content="Salvar" Command="{Binding Salvar}"></Button>
+						<Button Content="Cancelar" Command="{Binding Cancelar}"></Button>
 					</StackPanel>
 				</StackPanel>
 			</Grid>

@@ -57,11 +57,11 @@
 					<Grid Grid.Column="1">
 						<StackPanel VerticalAlignment="Top" Orientation="Vertical" HorizontalAlignment="Left" Margin="10" Spacing="15">
 							<ComboBox x:Name="cbProdutoAcabado" VerticalAlignment="Top" ItemsSource="{Binding ProdutosAcabados}" SelectedItem="{Binding ProdutoAcabadoSelecionado}" Width="300" />
-							<TextBox  HorizontalAlignment="Left" Width="20"></TextBox>
-							<TextBox HorizontalAlignment="Left" Width="20"></TextBox>
+							<TextBox Text="{Binding quantidade}" HorizontalAlignment="Left" Width="20"></TextBox>
+							<TextBox Text="{Binding markup}" HorizontalAlignment="Left" Width="20"></TextBox>
 							<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="100">
-								<Button Content="Salvar"></Button>
-								<Button Content="Cancelar"></Button>
+								<Button Content="Salvar" Command="{Binding Salvar}"></Button>
+								<Button Content="Cancelar" Command="{Binding Cancelar}"></Button>
 							</StackPanel>
 						</StackPanel>
 					</Grid>

@@ -1,23 +1,47 @@
 ﻿using Avalonia.Controls;
 using ControleDeEstoque.Models;
 using Microsoft.Data.Sqlite;
+using MsBox.Avalonia.Enums;
+using MsBox.Avalonia;
 using System;
 using System.Collections.ObjectModel;
+using System.Windows.Input;
+using System.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 
 namespace ControleDeEstoque.ViewModels
 {
-    internal class SaidaViewModel
+    internal class SaidaViewModel: ViewModelBase, INotifyPropertyChanged
     {
-        private string _produtoSelecionado;
+        private Produto _produtoSelecionado;
         private string _listaProdutos;
 
         public ObservableCollection<Produto> ListaProdutos { get; set; }
 
-        public string ProdutoSelecionado
+        private double _quantidade;
+
+        public double quantidade
+        {
+            get { return _quantidade; }
+            set { SetProperty(ref _quantidade, value); }
+        }
+
+        private double _valor;
+
+        public double valor
+        {
+            get { return _valor; }
+            set { SetProperty(ref _valor, value); }
+        }
+
+
+        public Produto ProdutoSelecionado
         {
             get { return _produtoSelecionado; }
             set { _produtoSelecionado = value; }
         }
+        public ICommand Cancelar { get; }
+        public ICommand Salvar { get; }
 
         public SaidaViewModel()
         {
@@ -33,8 +57,50 @@ namespace ControleDeEstoque.ViewModels
             {
                 CarregarListaProdutos();
             }
+
+            Cancelar = new RelayCommand(LimparCampos);
+
+            Salvar = new RelayCommand(SalvarSaida);
         }
 
+        private void LimparCampos()
+        {
+            quantidade = 0;
+            valor = 0;
+            ProdutoSelecionado = null;
+        }
+
+        private void SalvarSaida()
+        {
+            if (ProdutoSelecionado == null)
+            {
+                var box = MessageBoxManager.GetMessageBoxStandard("Sistema", "Nenhum produto foi selecionado.", ButtonEnum.Ok);
+
+                var result = box.ShowAsync();
+
+                return;
+            }
+
+            if (quantidade <= 0)
+            {
+                var box = MessageBoxManager.GetMessageBoxStandard("Sistema", "A quantidade deve ser maior que 0.", ButtonEnum.Ok);
+
+                var result = box.ShowAsync();
+                return;
+            }
+
+            if (valor <= 0)
+            {
+                var box = MessageBoxManager.GetMessageBoxStandard("Sistema", "O valor deve ser maior que 0.", ButtonEnum.Ok);
+
+                var result = box.ShowAsync();
+                return;
+            }
+
+            var novaSaida = new registraSaida(ProdutoSelecionado.id, quantidade, valor, DateTime.Now);
+
+            novaSaida.registrarNovaSaida();
+        }
         private void CarregarListaProdutos()
         {
             ListaProdutos.Clear();
@@ -64,11 +130,15 @@ namespace ControleDeEstoque.ViewModels
             }
             catch (SqliteException ex)
             {
-                Console.WriteLine($"Erro ao conectar ou consultar o banco de dados: {ex.Message}");
+                var box = MessageBoxManager.GetMessageBoxStandard("Sistema", $"Erro ao conectar ou consultar o banco de dados: {ex.Message}", ButtonEnum.Ok);
+
+                var result = box.ShowAsync();
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Erro geral: {ex.Message}");
+                var box = MessageBoxManager.GetMessageBoxStandard("Sistema", $"Erro geral: {ex.Message}", ButtonEnum.Ok);
+
+                var result = box.ShowAsync();
             }
         }
     }

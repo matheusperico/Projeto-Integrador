@@ -1,4 +1,8 @@
-﻿using System.Security.Cryptography;
+﻿using Microsoft.Data.Sqlite;
+using MsBox.Avalonia.Enums;
+using MsBox.Avalonia;
+using System;
+using System.Security.Cryptography;
 
 namespace ControleDeEstoque.Models
 {
@@ -41,20 +45,60 @@ namespace ControleDeEstoque.Models
             this.nome = nome1;
         }
 
-        public Produto(int id, string nome, string unidade, double fatorConversao, tipoProduto tipo) : this(id, nome)
+        public Produto(string nome, string unidade, double fatorConversao, tipoProduto tipo)
         {
+            this.nome = nome;
             this.unidade = unidade;
             this.fatorConversao = fatorConversao;
             this.tipo = tipo;
         }
 
-        public void novoCadastro()
+        public Produto(int id, string nome, string unidade, double fatorConversao, tipoProduto tipo)
         {
-            //
+            this.id = id;
+            this.nome = nome;
+            this.unidade = unidade;
+            this.fatorConversao = fatorConversao;
+            this.tipo = tipo;
         }
-        public void inativarProduto()
+
+        public async void novoCadastro()
         {
-            //
+            string connectionString = @"Data Source=..\..\..\Database\estoque";
+            try
+            {
+                using (var connection = new SqliteConnection(connectionString))
+                {
+                    connection.Open();
+
+                    string query = "INSERT INTO produtos (nome, unidade, tipo, fator_conversao) VALUES (@nome, @unidade, @tipo, @fator_conversao)";
+
+                    using (var command = new SqliteCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@nome", nome);
+                        command.Parameters.AddWithValue("@unidade", unidade);
+                        command.Parameters.AddWithValue("@tipo", (int)tipo);
+                        command.Parameters.AddWithValue("@fator_conversao", fatorConversao);
+
+                        int rowsAffected = command.ExecuteNonQuery();
+                        var box = MessageBoxManager.GetMessageBoxStandard("Sistema", "Registro salvo com sucesso!", ButtonEnum.Ok);
+
+                        var result = await box.ShowAsync();
+                    }
+                }
+            }
+            catch (SqliteException ex)
+            {
+                var box = MessageBoxManager.GetMessageBoxStandard("Sistema", $"Erro ao conectar ou consultar o banco de dados: {ex.Message}", ButtonEnum.Ok);
+
+                var result = await box.ShowAsync();
+            }
+            catch (Exception ex)
+            {
+                var box = MessageBoxManager.GetMessageBoxStandard("Sistema", $"Erro geral: {ex.Message}", ButtonEnum.Ok);
+
+                var result = await box.ShowAsync();
+            }
         }
 
         public override string ToString()
