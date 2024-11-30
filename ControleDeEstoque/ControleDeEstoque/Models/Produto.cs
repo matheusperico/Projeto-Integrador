@@ -13,6 +13,22 @@ namespace ControleDeEstoque.Models
         private string _unidade;
         private double _fatorConversao;
         private tipoProduto _tipo;
+        private double _estoqueAtual;
+        private double _valorMedio;
+
+        public double valorMedio
+        {
+            get { return _valorMedio; }
+            set { _valorMedio = value; }
+        }
+
+
+        public double estoqueAtual
+        {
+            get { return _estoqueAtual; }
+            set { _estoqueAtual = value; }
+        }
+
 
         public int id
         {
@@ -53,10 +69,19 @@ namespace ControleDeEstoque.Models
             this.tipo = tipo;
         }
 
-        public Produto(int id, string nome, string unidade, double fatorConversao, tipoProduto tipo)
+        public Produto(int id, string nome, string unidade, double fatorConversao, tipoProduto tipo, double estoqueAtual, double valorMedio)
         {
             this.id = id;
             this.nome = nome;
+            this.unidade = unidade;
+            this.fatorConversao = fatorConversao;
+            this.tipo = tipo;
+            this.estoqueAtual = estoqueAtual;
+            this.valorMedio = valorMedio;
+        }
+
+        public Produto(int id, string nome, string unidade, double fatorConversao, tipoProduto tipo) : this(id, nome)
+        {
             this.unidade = unidade;
             this.fatorConversao = fatorConversao;
             this.tipo = tipo;

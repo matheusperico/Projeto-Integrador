@@ -83,12 +83,52 @@ namespace ControleDeEstoque.ViewModels
 
         private void SalvaIndustrializacao()
         {
+            if (quantidade <= 0)
+            {
+                var box = MessageBoxManager.GetMessageBoxStandard("Erro", "A quantidade deve ser maior que zero.", ButtonEnum.Ok);
+                var result = box.ShowAsync();
+                return;
+            }
+
+            if (markup < 0)
+            {
+                var box = MessageBoxManager.GetMessageBoxStandard("Erro", "O markup não pode ser negativo.", ButtonEnum.Ok);
+                var result = box.ShowAsync();
+                return;
+            }
+
+            if (ProdutoAcabadoSelecionado == null)
+            {
+                var box = MessageBoxManager.GetMessageBoxStandard("Erro", "Selecione um produto acabado.", ButtonEnum.Ok);
+                var result = box.ShowAsync();
+                return;
+            }
+
+            if (ProdutosSelecionados.Count == 0)
+            {
+                var box = MessageBoxManager.GetMessageBoxStandard("Erro", "Adicione ao menos um produto à lista.", ButtonEnum.Ok);
+                var result = box.ShowAsync();
+                return;
+            }
+
+
             double valorTotal = 0;
             var verificador = new verificaEstoque();
 
             foreach(Produto produto in ProdutosSelecionados) 
             {
-                double valorMedio = verificador.CalculaValorMedio(produto.id);
+                double quantidadeMateriaPrimaUsada = quantidade * produto.fatorConversao;
+
+                if(quantidadeMateriaPrimaUsada > verificador.CalculaEstoque(produto.id))
+                {
+                    var box = MessageBoxManager.GetMessageBoxStandard("Industrialização", $"Não há quantidade suficiente de {produto.nome} em estoque para a produção.", ButtonEnum.Ok);
+
+                    var result = box.ShowAsync();
+
+                    return;
+                } 
+                
+                double valorMedio = verificador.CalculaValorMedio(produto.id) * quantidadeMateriaPrimaUsada;
                 valorTotal += valorMedio;
             }
 

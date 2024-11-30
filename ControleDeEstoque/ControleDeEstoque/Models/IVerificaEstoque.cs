@@ -12,5 +12,6 @@ namespace ControleDeEstoque.Models
     internal interface IVerificaEstoque
     {
         double CalculaValorMedio(int id_produto);
+        double CalculaEstoque(int id_produto);
     }
 }

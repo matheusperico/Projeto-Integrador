@@ -11,7 +11,16 @@
 	</UserControl.DataContext>
 	<Grid>
 		<TextBlock Text="Estoque Atual" HorizontalAlignment="Center" FontWeight="Bold"></TextBlock>
-		<DataGrid x:Name="gridEstoque" ItemsSource="{Binding Produtos, Mode=OneWay}" IsReadOnly="True" AutoGenerateColumns="True" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" GridLinesVisibility="All">
+		<DataGrid x:Name="gridEstoque" ItemsSource="{Binding Produtos, Mode=OneWay}" IsReadOnly="True" AutoGenerateColumns="False" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" GridLinesVisibility="All">
+			<DataGrid.Columns>
+				<DataGridTextColumn Header="ID" Binding="{Binding id}" />
+				<DataGridTextColumn Header="Nome" Binding="{Binding nome}" />
+				<DataGridTextColumn Header="Unidade" Binding="{Binding unidade}" />
+				<DataGridTextColumn Header="Fator Conversão" Binding="{Binding fatorConversao}" />
+				<DataGridTextColumn Header="Tipo" Binding="{Binding tipo}" />
+				<DataGridTextColumn Header="Estoque Atual" Binding="{Binding estoqueAtual}" />
+				<DataGridTextColumn Header="Valor Médio" Binding="{Binding valorMedio}" />
+			</DataGrid.Columns>
 		</DataGrid>
 	</Grid>
 </UserControl>

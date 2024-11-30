@@ -85,7 +85,7 @@ namespace ControleDeEstoque.Models
                         ultimoIdInserido = Convert.ToInt32(command.ExecuteScalar());
 
                         var novaEntrada = new registraEntrada(ProdutoAcabado.id, Quantidade, ValorTotal, DateTime.Now);
-                        novaEntrada.registrarNovaEntrada();
+                        novaEntrada.registrarNovaEntrada(false);
                     }
                 }
             }
@@ -126,7 +126,7 @@ namespace ControleDeEstoque.Models
 
                         var novaSaida = new registraSaida(id_materiaPrima, quantidade, valorMedio, DateTime.Now);
 
-                        novaSaida.registrarNovaSaida();
+                        novaSaida.registrarNovaSaida(false);
                     }
                 }
             }

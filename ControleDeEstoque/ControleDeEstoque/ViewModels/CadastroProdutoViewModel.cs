@@ -7,6 +7,8 @@ using CommunityToolkit.Mvvm.Input;
 using MsBox.Avalonia;
 using MsBox.Avalonia.Enums;
 using System.ComponentModel;
+using Avalonia.Controls;
+using System.Text.RegularExpressions;
 
 namespace ControleDeEstoque.ViewModels
 {
@@ -34,6 +36,34 @@ namespace ControleDeEstoque.ViewModels
 
         private void SalvarProduto()
         {
+            if (string.IsNullOrWhiteSpace(nome))
+            {
+                var box = MessageBoxManager.GetMessageBoxStandard("Sistema", "O nome do produto é obrigatório.");
+                var result = box.ShowAsync();
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(unidade) || !Regex.IsMatch(unidade, @"^[a-zA-Z]+$"))
+            {
+                var box = MessageBoxManager.GetMessageBoxStandard("Sistema", "A unidade deve conter apenas letras.");
+                var result = box.ShowAsync();
+                return;
+            }
+
+            if (!double.TryParse(fatorConversao.ToString(), out double fator))
+            {
+                var box = MessageBoxManager.GetMessageBoxStandard("Sistema", "O fator de conversão deve ser um número válido.");
+                var result = box.ShowAsync();
+                return;
+            }
+
+            if (tipo == default)
+            {
+                var box = MessageBoxManager.GetMessageBoxStandard("Sistema", "O tipo do produto deve ser selecionado.");
+                var result = box.ShowAsync();
+                return;
+            }
+
             var novoProduto = new Produto(nome, unidade, fatorConversao, tipo);
 
             novoProduto.novoCadastro();

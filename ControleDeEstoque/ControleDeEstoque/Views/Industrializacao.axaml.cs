@@ -3,7 +3,7 @@ using Avalonia.Controls;
 
 namespace ControleDeEstoque;
 
-public partial class Industrializacao : UserControl
+public partial class Industrializacao: UserControl
 {
     public Industrializacao()
     {

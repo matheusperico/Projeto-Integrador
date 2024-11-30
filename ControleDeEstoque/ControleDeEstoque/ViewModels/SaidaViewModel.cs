@@ -38,7 +38,7 @@ namespace ControleDeEstoque.ViewModels
         public Produto ProdutoSelecionado
         {
             get { return _produtoSelecionado; }
-            set { _produtoSelecionado = value; }
+            set { SetProperty(ref _produtoSelecionado, value); }
         }
         public ICommand Cancelar { get; }
         public ICommand Salvar { get; }
@@ -94,6 +94,17 @@ namespace ControleDeEstoque.ViewModels
                 var box = MessageBoxManager.GetMessageBoxStandard("Sistema", "O valor deve ser maior que 0.", ButtonEnum.Ok);
 
                 var result = box.ShowAsync();
+                return;
+            }
+
+            var verificador = new verificaEstoque();
+
+            if (quantidade > verificador.CalculaEstoque(ProdutoSelecionado.id))
+            {
+                var box = MessageBoxManager.GetMessageBoxStandard("Sistema", $"Não há quantidade suficiente de {ProdutoSelecionado.nome} em estoque para realizar a baixa.", ButtonEnum.Ok);
+
+                var result = box.ShowAsync();
+
                 return;
             }
 

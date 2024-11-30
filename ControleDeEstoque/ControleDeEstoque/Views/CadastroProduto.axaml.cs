@@ -13,4 +13,8 @@ public partial class CadastroProduto : UserControl
         InitializeComponent();
         DataContext = new CadastroProdutoViewModel();
     }
+
+    private void Binding(object? sender, Avalonia.Controls.TextChangedEventArgs e)
+    {
+    }
 }

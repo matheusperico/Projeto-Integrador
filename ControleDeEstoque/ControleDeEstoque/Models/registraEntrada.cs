@@ -27,7 +27,7 @@ namespace ControleDeEstoque.Models
         public double Valor { get => _valor; set => _valor = value; }
         public DateTime DataEntrada { get => _dataEntrada; set => _dataEntrada = value; }
 
-        public async void registrarNovaEntrada()
+        public async void registrarNovaEntrada(Boolean mostraMsg = true)
         {
             string connectionString = @"Data Source=..\..\..\Database\estoque";
             try
@@ -46,9 +46,12 @@ namespace ControleDeEstoque.Models
                         command.Parameters.AddWithValue("@data_entrada", DataEntrada);
 
                         int rowsAffected = command.ExecuteNonQuery();
-                        var box = MessageBoxManager.GetMessageBoxStandard("Sistema", "Registro salvo com sucesso!", ButtonEnum.Ok);
+                        if (mostraMsg)
+                        {
+                            var box = MessageBoxManager.GetMessageBoxStandard("Sistema", "Registro salvo com sucesso!", ButtonEnum.Ok);
 
-                        var result = await box.ShowAsync();
+                            var result = await box.ShowAsync();
+                        }
                     }
                 }
             }

@@ -33,7 +33,7 @@
 			<Grid Grid.Column="1">
 				<StackPanel Orientation="Vertical" Spacing="20" VerticalAlignment="Top">
 					<TextBox Text="{Binding nome}" TextAlignment="Justify" Width="400" HorizontalAlignment="Left"/>
-					<TextBox Text="{Binding unidade}" TextAlignment="Justify" Width="20" HorizontalAlignment="Left"/>
+					<TextBox Text="{Binding unidade}" TextAlignment="Justify" Width="20" HorizontalAlignment="Left"/>					
 					<ComboBox Width="200" ItemsSource="{Binding TipoProdutos}" SelectedItem="{Binding tipo}">
 						<ComboBox.ItemTemplate>
 							<DataTemplate>
