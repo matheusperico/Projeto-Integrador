@@ -145,6 +145,10 @@ namespace ControleDeEstoque.ViewModels
 
                 novaIndustrializacao.BaixaMateriaPrimaUsada(produto.id, id_industrializacao, quantidadeMateriaPrimaUsada, valorMedio);
             }
+
+            var msg = MessageBoxManager.GetMessageBoxStandard("Sistema", $"Industrialização realizada com sucesso!", ButtonEnum.Ok);
+
+            var resultado = msg.ShowAsync();
         }
 
         private void AdicionarProduto()
