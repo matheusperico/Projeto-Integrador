@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Projeto Integrador\\ControleDeEstoque\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\views\\saida.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\views\\saida.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\views\\entrada.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\views\\entrada.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\views\\cadastroproduto.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\views\\cadastroproduto.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\viewmodels\\industrializacaoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\viewmodels\\industrializacaoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\models\\industrializamp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\models\\industrializamp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\views\\cadastroproduto.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\views\\cadastroproduto.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\viewmodels\\gridestoqueviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\views\\industrializacao.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\models\\registraentrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\models\\registraentrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,20 +43,12 @@
       "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\models\\registrasaida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\views\\saida.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\views\\saida.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\views\\industrializacao.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\views\\industrializacao.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\models\\verificaestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\models\\verificaestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\views\\entrada.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|solutionrelative:controledeestoque\\views\\entrada.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9DDE594-1C8B-4F12-A4A0-F51AE12DC97E}|ControleDeEstoque\\ControleDeEstoque.csproj|c:\\projeto integrador\\controledeestoque\\controledeestoque\\viewmodels\\saidaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,11 +62,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "MainWindow.axaml",
               "DocumentMoniker": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Views\\MainWindow.axaml",
               "RelativeDocumentMoniker": "ControleDeEstoque\\Views\\MainWindow.axaml",
@@ -78,7 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "industrializaMP.cs",
               "DocumentMoniker": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Models\\industrializaMP.cs",
               "RelativeDocumentMoniker": "ControleDeEstoque\\Models\\industrializaMP.cs",
@@ -86,12 +86,11 @@
               "RelativeToolTip": "ControleDeEstoque\\Models\\industrializaMP.cs",
               "ViewState": "AgIAAFoAAAAAAAAAAAAowGUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T17:02:51.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T17:02:51.327Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "verificaEstoque.cs",
               "DocumentMoniker": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Models\\verificaEstoque.cs",
               "RelativeDocumentMoniker": "ControleDeEstoque\\Models\\verificaEstoque.cs",
@@ -103,18 +102,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "Entrada.axaml",
               "DocumentMoniker": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Views\\Entrada.axaml",
               "RelativeDocumentMoniker": "ControleDeEstoque\\Views\\Entrada.axaml",
               "ToolTip": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Views\\Entrada.axaml",
               "RelativeToolTip": "ControleDeEstoque\\Views\\Entrada.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-30T16:18:49.67Z"
+              "WhenOpened": "2024-11-30T16:18:49.67Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CadastroProduto.axaml",
               "DocumentMoniker": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Views\\CadastroProduto.axaml",
               "RelativeDocumentMoniker": "ControleDeEstoque\\Views\\CadastroProduto.axaml",
@@ -126,18 +126,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Saida.axaml",
               "DocumentMoniker": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Views\\Saida.axaml",
               "RelativeDocumentMoniker": "ControleDeEstoque\\Views\\Saida.axaml",
               "ToolTip": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Views\\Saida.axaml",
               "RelativeToolTip": "ControleDeEstoque\\Views\\Saida.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-30T16:18:11.979Z"
+              "WhenOpened": "2024-11-30T16:18:11.979Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "GridEstoqueViewModel.cs",
               "DocumentMoniker": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\ViewModels\\GridEstoqueViewModel.cs",
               "RelativeDocumentMoniker": "ControleDeEstoque\\ViewModels\\GridEstoqueViewModel.cs",
@@ -145,8 +146,7 @@
               "RelativeToolTip": "ControleDeEstoque\\ViewModels\\GridEstoqueViewModel.cs",
               "ViewState": "AgIAACgAAAAAAAAAAADwvzkAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T16:14:36.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T16:14:36.73Z"
             },
             {
               "$type": "Document",
@@ -162,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Industrializacao.axaml.cs",
               "DocumentMoniker": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Views\\Industrializacao.axaml.cs",
               "RelativeDocumentMoniker": "ControleDeEstoque\\Views\\Industrializacao.axaml.cs",
@@ -170,12 +170,11 @@
               "RelativeToolTip": "ControleDeEstoque\\Views\\Industrializacao.axaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T14:03:12.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T14:03:12.026Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Industrializacao.axaml",
               "DocumentMoniker": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Views\\Industrializacao.axaml",
               "RelativeDocumentMoniker": "ControleDeEstoque\\Views\\Industrializacao.axaml",
@@ -186,20 +185,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "IndustrializacaoViewModel.cs",
               "DocumentMoniker": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\ViewModels\\IndustrializacaoViewModel.cs",
               "RelativeDocumentMoniker": "ControleDeEstoque\\ViewModels\\IndustrializacaoViewModel.cs",
               "ToolTip": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\ViewModels\\IndustrializacaoViewModel.cs",
               "RelativeToolTip": "ControleDeEstoque\\ViewModels\\IndustrializacaoViewModel.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAADgv4MAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAADgv38AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T20:42:08.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "registraEntrada.cs",
               "DocumentMoniker": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Models\\registraEntrada.cs",
               "RelativeDocumentMoniker": "ControleDeEstoque\\Models\\registraEntrada.cs",
@@ -211,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "registraSaida.cs",
               "DocumentMoniker": "C:\\Projeto Integrador\\ControleDeEstoque\\ControleDeEstoque\\Models\\registraSaida.cs",
               "RelativeDocumentMoniker": "ControleDeEstoque\\Models\\registraSaida.cs",
